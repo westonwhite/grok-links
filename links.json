@@ -71,12 +71,12 @@
   },
   {
    "category": "Radios",
-   "title": "TIDRADIO TD-H3 GMRS 2-pack (top pick)",
+   "title": "TIDRADIO TD-H3 GMRS 2-pack (Amazon, currently unavailable)",
    "store": "Amazon",
    "price": "$54.99",
    "url": "https://www.amazon.com/dp/B0CQ4P91DF",
-   "verdict": "recommended",
-   "note": "Top GMRS pick. USB-C, NOAA; needs a $35 family license (no test).",
+   "verdict": "option",
+   "note": "Was the $54.99 benchmark, but Amazon (B0CQ4P91DF) is out of stock as of Nov 17. CamelCamelCamel: last 3rd-party new $54.99 on Nov 16; no used offers now (used last $33.91 on Oct 24, 2025). USB-C programming cable, Odmaster app, CHIRP, NOAA. If it returns under $55 it is still a good GMRS-titled kit; confirm the label shows the GMRS FCC ID (the certified GMRS version is filed around 1.4W, not 5W).",
    "added": "2026-11-17",
    "used_checked": "2026-11-17",
    "used_price": "none found"
@@ -97,24 +97,24 @@
   },
   {
    "category": "Radios",
-   "title": "Radioddity GM-30 GMRS 2-pack with cable",
+   "title": "Radioddity GM-30 GMRS 2-pack with cable (top GMRS voice pick)",
    "store": "Radioddity",
    "price": "$59.99",
    "url": "https://www.radioddity.com/products/radioddity-gm-30-2-pack",
-   "verdict": "option",
-   "note": "OK GMRS alternative. CHIRP programmable.",
+   "verdict": "recommended",
+   "note": "Best in-stock FCC-certified GMRS pair for long-distance voice, NOAA, and local repeaters. CHIRP via included programming cable; USB-C charging (cable is for programming, not USB-C data). FCC ID 2AN62-GM30, filed ~4.91W. 1500mAh batteries. In stock at $59.99; plus shipping (US warehouse 3–5 business days when US inventory is available; confirm rate at checkout). eBay $24.99 single / $44.99 2-pack listings were out of stock today. No used/open-box found.",
    "added": "2026-11-17",
    "used_checked": "2026-11-17",
    "used_price": "none found"
   },
   {
    "category": "Radios",
-   "title": "Quansheng UV-K5/K6 ham 2-pack",
+   "title": "Quansheng UV-K5/K6 ham 2-pack (custom firmware, NOT GMRS-certified)",
    "store": "Amazon",
    "price": "$54.34",
    "url": "https://www.amazon.com/dp/B0CZ97PH4P",
    "verdict": "option",
-   "note": "Needs a Technician ham license to transmit.",
+   "note": "Best “cool software” radio (egzumer / F4HWN custom firmware, CHIRP, USB-C charging, NOAA receive). It is NOT FCC-certified for GMRS. Transmitting on GMRS with it is illegal. Legal transmit is amateur (ham) bands only, and each operator needs a Technician license — a GMRS family license does not cover it. Some custom firmware has a simple messenger, but it is not a good primary texting system. Amazon 2-pack B0D8GLNY11 is out of stock; B0CZ97PH4P stock/price was not fully confirmed today (previously $54.34). No used found.",
    "added": "2026-11-17",
    "used_checked": "2026-11-17",
    "used_price": "none found"
@@ -327,6 +327,90 @@
    "added": "2026-11-17",
    "used_checked": "2026-11-17",
    "used_price": "n/a"
+  },
+  {
+   "category": "Radios",
+   "title": "Recommended 2-person prep kit: GM-30 pair + 2 T-Echo + GMRS license",
+   "store": "Radioddity + Rokland + FCC",
+   "price": "about $225–$235 + tax",
+   "url": "https://www.radioddity.com/products/radioddity-gm-30-2-pack",
+   "verdict": "recommended",
+   "note": "One-time cost, no subscriptions. Radioddity GM-30 2-pack $59.99 (plus shipping) for legal GMRS voice, NOAA alerts, and Pinellas/Tampa repeaters; two LILYGO T-Echo 915 MHz $64.97 each ($129.94, free US shipping from Rokland) for off-grid text and GPS via the Meshtastic phone app (e-ink screen still works if phones die); FCC GMRS license $35 for 10 years covering you and your wife. Total about $224.93 plus GM-30 shipping and tax. Cheaper texting swap: two SenseCAP T1000-E cards (~$80) instead of the T-Echos.",
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "n/a"
+  },
+  {
+   "category": "Radios",
+   "title": "TIDRADIO TD-H3 unlocked 2-pack (official, cheaper but not legal GMRS)",
+   "store": "TIDRADIO",
+   "price": "$49.99",
+   "url": "https://tidradio.com/products/tidradio-td-h3-ham-gmrs-unlocked-8-band-walkie-talkie?variant=43541635956815",
+   "verdict": "not recommended",
+   "note": "In stock at $49.99. USB-C programming cable included, Odmaster app, CHIRP, NOAA receive, and some open-source firmware. Unlocked (ham+GMRS) units are not legal to transmit on GMRS. Shipping 5–9 business days in the US; confirm shipping at checkout. Skip this if the goal is legal GMRS with your wife.",
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
+  },
+  {
+   "category": "Radios",
+   "title": "BTECH GMRS-PRO (premium all-in-one with off-grid text/GPS)",
+   "store": "BTECH",
+   "price": "$166.89 each ($333.78 for 2)",
+   "url": "https://baofengtech.com/product/gmrs-pro/",
+   "verdict": "option",
+   "note": "FCC-certified GMRS, IP67, 2600mAh, USB-C, NOAA, app programming, off-grid short texts and GPS sharing with no subscription. Voice can use GMRS repeaters; texts/GPS are simplex only (radio-to-radio, not through repeaters) and only work with other GMRS-PROs. Ships from the USA, typically 1–4 business days. Two plus the $35 family license is about $369 before tax. No cheaper used/open-box found today.",
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
+  },
+  {
+   "category": "Radios",
+   "title": "LILYGO T-Echo 915 MHz Meshtastic (best easy off-grid text/GPS)",
+   "store": "Rokland",
+   "price": "$64.97 each ($129.94 for 2, free shipping)",
+   "url": "https://store.rokland.com/products/lilygo-ttgo-meshtastic-t-echo-white-lora-sx1262-wireless-module-915mhz-nrf52840-gps-for-arduino",
+   "verdict": "recommended",
+   "note": "License-free LoRa (US 915 MHz), no subscription. Pairs with the Meshtastic phone app for off-grid text and GPS; 1.54-inch e-ink screen still works if phones are dead. In stock (26 when checked) at Rokland; US orders $20+ ship free. Range is typically a few miles per hop in the open, less in town, and can extend through a mesh. This does not replace GMRS voice or GMRS repeaters, and it does not receive NOAA alerts.",
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
+  },
+  {
+   "category": "Radios",
+   "title": "SenseCAP T1000-E Meshtastic card (cheaper pocket text/GPS)",
+   "store": "Seeed / Mouser / DigiKey",
+   "price": "$39.90 each (about $80–$90 for 2 incl. shipping)",
+   "url": "https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html",
+   "verdict": "option",
+   "note": "Credit-card size, IP65, built-in GPS, pairs with the Meshtastic phone app, no subscription, no license. $39.90 official; also $39.90 + $4.99 shipping at Mouser or DigiKey. Seeed sometimes takes 10% off two or more (about $71.82 before shipping) — confirm stock and the discount at checkout. ~2-day battery and no screen, so you need the phone to text. No used/open-box bargain found.",
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
+  },
+  {
+   "category": "Radios",
+   "title": "Motorola Talkabout T802 2-pack (FRS app texting, not long-distance)",
+   "store": "Amazon",
+   "price": "$109.99",
+   "url": "https://www.amazon.com/dp/B0CVCK57CR",
+   "verdict": "not recommended",
+   "note": "License-free FRS with NOAA alerts and off-grid app texting/location between T800-series radios only (needs a phone in each hand). No GMRS repeaters and only FRS power, so real neighborhood range is a couple of miles, not long-distance. Rocky Talkie radios do not text. Skip this if you want to hit Pinellas/Tampa GMRS repeaters.",
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
+  },
+  {
+   "category": "Radios",
+   "title": "Heltec WiFi LoRa 32 V3 915 MHz (DIY Meshtastic, cheapest board)",
+   "store": "Rokland",
+   "price": "$26.97 each",
+   "url": "https://store.rokland.com/collections/popular-meshtastic-products",
+   "verdict": "not recommended",
+   "note": "Cheapest Meshtastic board ($26.97 at Rokland, 65 in stock, free shipping over $20). Needs a battery and a case, GPS is not built in, and battery life is poor unless you build it out. Fine as a nerd project, not as your wife’s everyday prep radio. Prefer the T-Echo or T1000-E.",
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   }
  ]
 }
