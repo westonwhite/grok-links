@@ -9,7 +9,11 @@
    "url": "https://www.amazon.com/dp/B0CDC9M1HJ",
    "verdict": "recommended",
    "note": "Top pick. Uses nearly the full array (1,500W at 12V). 4.2★, Prime by Nov 22; used from $120.99",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "$120.99",
+   "used_url": "https://www.amazon.com/dp/B0CDC9M1HJ",
+   "used_source": "Amazon – Used Like New"
   },
   {
    "category": "Solar backup",
@@ -19,7 +23,9 @@
    "url": "https://www.amazon.com/dp/B0G5P3XJ3S",
    "verdict": "option",
    "note": "OK alternative. Caps at 1,200W; only 2 reviews.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Solar backup",
@@ -29,7 +35,11 @@
    "url": "https://www.amazon.com/dp/B0D7CFXYKX",
    "verdict": "option",
    "note": "OK alternative. 4.9★, 160V PV.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "$126.64",
+   "used_url": "https://www.amazon.com/dp/B0D7CFXYKX",
+   "used_source": "Amazon – Used Like New"
   },
   {
    "category": "Solar backup",
@@ -39,7 +49,11 @@
    "url": "https://www.ebay.com/itm/127703206732",
    "verdict": "option",
    "note": "Premium used option. 60A caps at ~860W.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "$298.74",
+   "used_url": "https://www.ebay.com/itm/127703206732",
+   "used_source": "eBay – Used Like New"
   },
   {
    "category": "Solar backup",
@@ -49,7 +63,11 @@
    "url": "https://www.amazon.com/dp/B01MSYGZGI",
    "verdict": "recommended",
    "note": "Recommended for spare panels only, not the 370s.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "$148.71",
+   "used_url": "https://www.amazon.com/dp/B01MSYGZGI",
+   "used_source": "Amazon Warehouse – Used Good"
   },
   {
    "category": "Radios",
@@ -59,7 +77,9 @@
    "url": "https://www.amazon.com/dp/B0CQ4P91DF",
    "verdict": "recommended",
    "note": "Top GMRS pick. USB-C, NOAA; needs a $35 family license (no test).",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Radios",
@@ -69,7 +89,11 @@
    "url": "https://www.amazon.com/dp/B013QIFCLE",
    "verdict": "option",
    "note": "Simplest GMRS option. 4.4★.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "$49.50",
+   "used_url": "https://www.ebay.com/itm/407290500306",
+   "used_source": "eBay – Used (pair, very good)"
   },
   {
    "category": "Radios",
@@ -79,7 +103,9 @@
    "url": "https://www.radioddity.com/products/radioddity-gm-30-2-pack",
    "verdict": "option",
    "note": "OK GMRS alternative. CHIRP programmable.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Radios",
@@ -89,7 +115,9 @@
    "url": "https://www.amazon.com/dp/B0CZ97PH4P",
    "verdict": "option",
    "note": "Needs a Technician ham license to transmit.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Cameras",
@@ -99,7 +127,9 @@
    "url": "https://www.walmart.com/ip/20087201301",
    "verdict": "recommended",
    "note": "Cheapest hub that works with your solar cams and Home Assistant. microSD not included.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Cameras",
@@ -109,7 +139,9 @@
    "url": "https://www.newegg.com/p/35A-008Y-00001",
    "verdict": "option",
    "note": "Same Mini as Walmart, slightly more expensive. microSD not included.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Cameras",
@@ -119,7 +151,11 @@
    "url": "https://www.amazon.com/dp/B0DP9MYNQ5",
    "verdict": "option",
    "note": "More local storage if you need it. HA-tested.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "$128.24",
+   "used_url": "https://www.amazon.com/dp/B0DP9MYNQ5",
+   "used_source": "Amazon Warehouse – Used Like New"
   },
   {
    "category": "Cameras",
@@ -129,7 +165,9 @@
    "url": "https://www.amazon.com/dp/B0GK18FCC3",
    "verdict": "not recommended",
    "note": "Overkill unless you want 24/7 HDD recording.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Solar backup",
@@ -139,7 +177,9 @@
    "url": "https://www.amazon.com/dp/B0FN7TYXMQ",
    "verdict": "option",
    "note": "OK alternative. Real MPPT, but caps at ~720W.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Solar backup",
@@ -149,7 +189,9 @@
    "url": "https://www.amazon.com/dp/B0FN7YWMX6",
    "verdict": "option",
    "note": "Same V124 hardware as the 60A, higher amp rating; caps ~960W at 12V, covers most real-world output. Few reviews so far.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Solar backup",
@@ -160,7 +202,11 @@
    "verdict": "yours",
    "from": "Weston",
    "note": "BOUGHT Nov 17 (arrives Nov 18). You sent this. Works: 145V max vs ~104V cold Voc, ~1,400W at 12V; only buy with 30-day return, lesser-known brand",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "$90.99",
+   "used_url": "https://www.amazon.com/dp/B0H7XX3F5Z?th=1",
+   "used_source": "Amazon – Used Like New"
   },
   {
    "category": "Solar backup",
@@ -170,7 +216,9 @@
    "url": "https://www.ebay.com/itm/800269378978",
    "verdict": "option",
    "note": "Real 100A/150V MPPT from ANENJI official (100% positive, 1.2K sold). Free 2–4 day US shipping from NJ. Not an identical VUICCI housing clone, and not cheaper than the used VUICCI at $90.99.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Solar backup",
@@ -180,7 +228,9 @@
    "url": "https://www.ebay.com/itm/178507651900",
    "verdict": "not recommended",
    "note": "Same V124 60A, free shipping via Google Shopping, but $30 more than Amazon ($66).",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Cameras",
@@ -190,7 +240,9 @@
    "url": "https://www.ebay.com/itm/407350126984",
    "verdict": "option",
    "note": "Genuine unit from Reolink Official US (99.6% positive, 3.3K sold). Free shipping from Houston, TX. Still $15 more than Walmart at $69.94.",
-   "added": "2026-11-17"
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
   },
   {
    "category": "Household",
@@ -201,7 +253,8 @@
    "note": "Best value 99.9%. S&S $27.50 ($0.21/oz). In stock, Prime by Thu Nov 19. Hazmat: non-returnable, no extra ship fee with Prime.",
    "verdict": "recommended",
    "added": "2026-11-17",
-   "used_price": "n/a"
+   "used_price": "none found",
+   "used_checked": "2026-11-17"
   },
   {
    "category": "Household",
@@ -212,7 +265,8 @@
    "note": "Best small bottle. S&S $8.50 ($0.53/oz); 10% S&S is $8.05. Prime by Thu Nov 19. Hazmat, non-returnable.",
    "verdict": "recommended",
    "added": "2026-11-17",
-   "used_price": "n/a"
+   "used_price": "none found",
+   "used_checked": "2026-11-17"
   },
   {
    "category": "Household",
@@ -223,7 +277,8 @@
    "note": "Best single 32 oz of 99.9%, sold by Amazon. S&S $10.22 ($0.32/oz). Prime by Thu Nov 19. Hazmat, non-returnable.",
    "verdict": "option",
    "added": "2026-11-17",
-   "used_price": "n/a"
+   "used_price": "none found",
+   "used_checked": "2026-11-17"
   },
   {
    "category": "Household",
@@ -234,7 +289,8 @@
    "note": "99% not 99.9%. Same $9.99 at Walmart. No S&S shown. Fine if 99% is enough; skip if you want closest to 100%.",
    "verdict": "option",
    "added": "2026-11-17",
-   "used_price": "n/a"
+   "used_price": "none found",
+   "used_checked": "2026-11-17"
   }
  ]
 }

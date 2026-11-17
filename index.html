@@ -11,8 +11,9 @@ input{width:100%;padding:10px;border-radius:8px;border:1px solid #334155;backgro
 .filters button{appearance:none;border:1px solid #334155;background:#0b1220;color:#cbd5e1;border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer;min-height:40px}
 .filters button.on{background:#1e3a8a;border-color:#3b82f6;color:#dbeafe}
 .cat{margin-top:22px;font-size:15px;color:#38bdf8;text-transform:uppercase;letter-spacing:.05em}
-.card{display:block;background:#1e293b;border-radius:10px;padding:12px 14px;margin:8px 0;text-decoration:none;color:inherit;border:1px solid #334155}
+.card{background:#1e293b;border-radius:10px;margin:8px 0;border:1px solid #334155;overflow:hidden}
 .card:hover{border-color:#38bdf8}
+.main{display:block;padding:12px 14px 8px;text-decoration:none;color:inherit}
 .top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}
 .t{font-weight:600;font-size:16px}.p{color:#4ade80;font-weight:600;white-space:nowrap}
 .n{color:#94a3b8;font-size:14px;margin-top:4px}.d{color:#64748b;font-size:12px;margin-top:4px}
@@ -22,6 +23,10 @@ input{width:100%;padding:10px;border-radius:8px;border:1px solid #334155;backgro
 .badge.option{background:#3f3f46;color:#d4d4d8}
 .badge.yours{background:#1e3a8a;color:#93c5fd}
 .badge.info{background:#334155;color:#94a3b8}
+.used{padding:0 14px 12px;font-size:13px}
+.used a{color:#fbbf24;font-weight:600;text-decoration:none;display:inline-block;min-height:32px;line-height:1.4}
+.used a:hover{text-decoration:underline;color:#fde68a}
+.used .none{color:#64748b}
 </style></head><body>
 <header><h1>Links from Grok</h1><small id="upd">Loading…</small></header>
 <main><input id="q" placeholder="Search links…">
@@ -30,6 +35,7 @@ input{width:100%;padding:10px;border-radius:8px;border:1px solid #334155;backgro
 <button type="button" data-v="recommended">Recommended</button>
 <button type="button" data-v="not recommended">Not recommended</button>
 <button type="button" data-v="yours">You sent</button>
+<button type="button" data-v="used">Used deals</button>
 </div>
 <div id="list"></div></main>
 <script>
@@ -37,12 +43,24 @@ let data=[],filter='';
 const labels={recommended:'Recommended','not recommended':'Not recommended',option:'Option',yours:'You sent',info:'Info'};
 const cls={recommended:'recommended','not recommended':'not-recommended',option:'option',yours:'yours',info:'info'};
 function esc(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function hasUsed(i){return i.used_price&&i.used_price!=='none found'}
+function usedLine(i){
+  if(hasUsed(i)&&i.used_url){
+    return `<div class="used"><a href="${esc(i.used_url)}" target="_blank" rel="noopener">Cheapest used/open-box: ${esc(i.used_price)} at ${esc(i.used_source||'used listing')}</a></div>`;
+  }
+  return `<div class="used"><span class="none">Cheapest used/open-box: none found</span></div>`;
+}
 function render(){const q=document.getElementById('q').value.toLowerCase();const el=document.getElementById('list');el.innerHTML='';
-const items=data.filter(i=>(!filter||i.verdict===filter)&&(!q||JSON.stringify(i).toLowerCase().includes(q)));const cats={};
+const items=data.filter(i=>{
+  if(filter==='used'){if(!hasUsed(i))return false;}
+  else if(filter&&i.verdict!==filter)return false;
+  return !q||JSON.stringify(i).toLowerCase().includes(q);
+});
+const cats={};
 items.forEach(i=>{(cats[i.category||'Other']=cats[i.category||'Other']||[]).push(i)});
 for(const c in cats){el.insertAdjacentHTML('beforeend',`<div class="cat">${esc(c)}</div>`);
 cats[c].forEach(i=>{const v=i.verdict||'';const badge=v?`<span class="badge ${cls[v]||'option'}">${esc(labels[v]||v)}</span>`:'';
-el.insertAdjacentHTML('beforeend',`<a class="card" href="${esc(i.url)}" target="_blank" rel="noopener"><div class="top">${badge}<span class="p">${esc(i.price)}</span></div><div class="t">${esc(i.title)}</div><div class="n">${esc(i.store)}${i.note?' · '+esc(i.note):''}</div><div class="d">Added ${esc(i.added)}${i.used_price?` · Used: ${esc(i.used_price)}`:''}</div></a>`)})}
+el.insertAdjacentHTML('beforeend',`<div class="card"><a class="main" href="${esc(i.url)}" target="_blank" rel="noopener"><div class="top">${badge}<span class="p">${esc(i.price)}</span></div><div class="t">${esc(i.title)}</div><div class="n">${esc(i.store)}${i.note?' · '+esc(i.note):''}</div><div class="d">Added ${esc(i.added)}</div></a>${usedLine(i)}</div>`)})}
 if(!items.length)el.innerHTML='<p>No links yet.</p>'}
 fetch('links.json?'+Date.now()).then(r=>r.json()).then(j=>{data=(j.links||[]).sort((a,b)=>(b.added||'').localeCompare(a.added||''));document.getElementById('upd').textContent='Updated '+(j.updated||'');render()});
 document.getElementById('q').oninput=render;
