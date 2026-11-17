@@ -8,7 +8,7 @@
    "price": "$139.99",
    "url": "https://www.amazon.com/dp/B0CDC9M1HJ",
    "verdict": "recommended",
-   "note": "Top pick. Uses nearly the full array (1,500W at 12V). 4.2★, Prime by Nov 22; used from $120.99",
+   "note": "Top pick. Uses nearly the full array (1,500W at 12V). 4.2\u2605, Prime by Nov 22; used from $120.99",
    "added": "2026-11-17"
   },
   {
@@ -28,7 +28,7 @@
    "price": "$141.54",
    "url": "https://www.amazon.com/dp/B0D7CFXYKX",
    "verdict": "option",
-   "note": "OK alternative. 4.9★, 160V PV.",
+   "note": "OK alternative. 4.9\u2605, 160V PV.",
    "added": "2026-11-17"
   },
   {
@@ -68,7 +68,7 @@
    "price": "$99.99",
    "url": "https://www.amazon.com/dp/B013QIFCLE",
    "verdict": "option",
-   "note": "Simplest GMRS option. 4.4★.",
+   "note": "Simplest GMRS option. 4.4\u2605.",
    "added": "2026-11-17"
   },
   {
@@ -157,8 +157,8 @@
    "store": "Amazon",
    "price": "$85.00",
    "url": "https://www.amazon.com/dp/B0FN7YWMX6",
-   "verdict": "not recommended",
-   "note": "2.9★ and caps at 960W. Real MPPT, but skip this one.",
+   "verdict": "option",
+   "note": "Same V124 hardware as the 60A, higher amp rating; caps ~960W at 12V, covers most real-world output. Few reviews so far.",
    "added": "2026-11-17"
   },
   {
