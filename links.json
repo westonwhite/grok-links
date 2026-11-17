@@ -7,7 +7,7 @@
    "store": "Amazon",
    "price": "$139.99",
    "url": "https://www.amazon.com/dp/B0CDC9M1HJ",
-   "note": "Covers all 4 panels (1,500W at 12V), 4.2\u2605 (159), Prime by Nov 22; used from $120.99",
+   "note": "Covers all 4 panels (1,500W at 12V), 4.2★ (159), Prime by Nov 22; used from $120.99",
    "added": "2026-11-17"
   },
   {
@@ -25,7 +25,7 @@
    "store": "Amazon",
    "price": "$141.54",
    "url": "https://www.amazon.com/dp/B0D7CFXYKX",
-   "note": "4.9\u2605 (13), 160V PV",
+   "note": "4.9★ (13), 160V PV",
    "added": "2026-11-17"
   },
   {
@@ -52,7 +52,7 @@
    "store": "Amazon",
    "price": "$54.99",
    "url": "https://www.amazon.com/dp/B0CQ4P91DF",
-   "note": "USB-C, NOAA, long antennas; needs $35 family GMRS license (no test); arrives ~Nov 29\u2013Dec 5",
+   "note": "USB-C, NOAA, long antennas; needs $35 family GMRS license (no test); arrives ~Nov 29–Dec 5",
    "added": "2026-11-17"
   },
   {
@@ -61,7 +61,7 @@
    "store": "Amazon",
    "price": "$99.99",
    "url": "https://www.amazon.com/dp/B013QIFCLE",
-   "note": "Simplest, 4.4\u2605 (10,757), arrives Nov 24\u201328",
+   "note": "Simplest, 4.4★ (10,757), arrives Nov 24–28",
    "added": "2026-11-17"
   },
   {
@@ -125,6 +125,24 @@
    "price": "$219.99",
    "url": "https://www.amazon.com/dp/B0GK18FCC3",
    "note": "In stock; up to 12 cameras, 16TB HDD bay and HDMI (drive not included). Overkill unless you want 24/7 HDD recording.",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Solar",
+   "title": "MakeSkyBlue 60A V124 MPPT (cheapest that fits 2S2P)",
+   "store": "Amazon",
+   "price": "$66.00",
+   "url": "https://www.amazon.com/dp/B0FN7TYXMQ",
+   "note": "Official MakeSkyBlue; 150V PV on 12V (cold Voc ~104V OK). Clips to 720W at 12V. Sold by MakeSkyBlue, free delivery ~Nov 24; 4.0★ (21), frequently returned. Real MPPT (DIY Solar / Will Prowse / teardowns of this product line).",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Solar",
+   "title": "MakeSkyBlue 80A V124 MPPT",
+   "store": "Amazon",
+   "price": "$85.00",
+   "url": "https://www.amazon.com/dp/B0FN7YWMX6",
+   "note": "Same V124 family, 150V PV on 12V. Clips to 960W at 12V (less waste than 60A). 8 left, Prime as soon as Nov 19. 2.9★ (10). Real MPPT, official line.",
    "added": "2026-11-17"
   },
   {
