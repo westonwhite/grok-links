@@ -1,131 +1,140 @@
 {
-  "updated": "Nov 17, 2026 10:59 AM ET",
-  "links": [
-    {
-      "category": "Solar backup",
-      "title": "POWLAND 100A 150V MPPT (top pick)",
-      "store": "Amazon",
-      "price": "$139.99",
-      "url": "https://www.amazon.com/dp/B0CDC9M1HJ",
-      "note": "Covers all 4 panels (1,500W at 12V), 4.2★ (159), Prime by Nov 22; used from $120.99",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Solar backup",
-      "title": "MakeSkyBlue 100A V124 MPPT (cheapest)",
-      "store": "Amazon",
-      "price": "$110.00",
-      "url": "https://www.amazon.com/dp/B0G5P3XJ3S",
-      "note": "Caps at 1,200W, only 2 reviews, 7 left",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Solar backup",
-      "title": "PowMr 100A parallel MPPT",
-      "store": "Amazon",
-      "price": "$141.54",
-      "url": "https://www.amazon.com/dp/B0D7CFXYKX",
-      "note": "4.9★ (13), 160V PV",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Solar backup",
-      "title": "Victron SmartSolar 150/60 (used, like new)",
-      "store": "eBay",
-      "price": "$298.74",
-      "url": "https://www.ebay.com/itm/127703206732",
-      "note": "Premium brand; 60A caps at ~860W",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Solar backup",
-      "title": "Renogy Rover 40A 100V (spare panels controller)",
-      "store": "Amazon",
-      "price": "$168.99",
-      "url": "https://www.amazon.com/dp/B01MSYGZGI",
-      "note": "For the ALRSKA/BossWatt spares, optional",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Radios",
-      "title": "TIDRADIO TD-H3 GMRS 2-pack (top pick)",
-      "store": "Amazon",
-      "price": "$54.99",
-      "url": "https://www.amazon.com/dp/B0CQ4P91DF",
-      "note": "USB-C, NOAA, long antennas; needs $35 family GMRS license (no test); arrives ~Nov 29–Dec 5",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Radios",
-      "title": "Midland GXT1030VP4 GMRS 2-pack",
-      "store": "Amazon",
-      "price": "$99.99",
-      "url": "https://www.amazon.com/dp/B013QIFCLE",
-      "note": "Simplest, 4.4★ (10,757), arrives Nov 24–28",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Radios",
-      "title": "Radioddity GM-30 GMRS 2-pack with cable",
-      "store": "Radioddity",
-      "price": "$59.99",
-      "url": "https://www.radioddity.com/products/radioddity-gm-30-2-pack",
-      "note": "CHIRP programmable; shipping not confirmed",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Radios",
-      "title": "Quansheng UV-K5/K6 ham 2-pack",
-      "store": "Amazon",
-      "price": "$54.34",
-      "url": "https://www.amazon.com/dp/B0CZ97PH4P",
-      "note": "Ham radio; each person needs a Technician license to transmit",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Solar backup",
-      "title": "Solar backup plan (panels to boat), Nov 2",
-      "store": "Google Docs",
-      "price": "",
-      "url": "https://docs.google.com/document/d/1evhlPlea3wgPv0GFaWFyISC08ss_s_t4bPC1TpFVmKk/edit?usp=drivesdk",
-      "note": "Earlier saved plan",
-      "added": "2026-11-02"
-    },
-    {
-      "category": "Cameras",
-      "title": "Reolink Home Hub Mini (cheapest, recommended)",
-      "store": "Walmart",
-      "price": "$69.94",
-      "url": "https://www.walmart.com/ip/20087201301",
-      "note": "8 cameras, up to 1TB microSD (not included); sold by ReolinkUSOnline, fulfilled by Walmart, free shipping. Official HA Reolink integration bridge for battery/solar cams.",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Cameras",
-      "title": "Reolink Home Hub Mini",
-      "store": "Newegg",
-      "price": "$79.99",
-      "url": "https://www.newegg.com/p/35A-008Y-00001",
-      "note": "Same Mini, sold/shipped by ReolinkUS. microSD not included.",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Cameras",
-      "title": "Reolink Home Hub (8-cam, 2 microSD slots)",
-      "store": "Amazon",
-      "price": "$134.99",
-      "url": "https://www.amazon.com/dp/B0DP9MYNQ5",
-      "note": "In stock; 2x512GB SD slots (card not included). HA-tested. Alternative to Mini if you want more local storage.",
-      "added": "2026-11-17"
-    },
-    {
-      "category": "Cameras",
-      "title": "Reolink Home Hub Pro (no HDD)",
-      "store": "Amazon",
-      "price": "$219.99",
-      "url": "https://www.amazon.com/dp/B0GK18FCC3",
-      "note": "In stock; up to 12 cameras, 16TB HDD bay and HDMI (drive not included). Overkill unless you want 24/7 HDD recording.",
-      "added": "2026-11-17"
-    }
-  ]
+ "updated": "2026-11-17",
+ "links": [
+  {
+   "category": "Solar backup",
+   "title": "POWLAND 100A 150V MPPT (top pick)",
+   "store": "Amazon",
+   "price": "$139.99",
+   "url": "https://www.amazon.com/dp/B0CDC9M1HJ",
+   "note": "Covers all 4 panels (1,500W at 12V), 4.2\u2605 (159), Prime by Nov 22; used from $120.99",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Solar backup",
+   "title": "MakeSkyBlue 100A V124 MPPT (cheapest)",
+   "store": "Amazon",
+   "price": "$110.00",
+   "url": "https://www.amazon.com/dp/B0G5P3XJ3S",
+   "note": "Caps at 1,200W, only 2 reviews, 7 left",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Solar backup",
+   "title": "PowMr 100A parallel MPPT",
+   "store": "Amazon",
+   "price": "$141.54",
+   "url": "https://www.amazon.com/dp/B0D7CFXYKX",
+   "note": "4.9\u2605 (13), 160V PV",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Solar backup",
+   "title": "Victron SmartSolar 150/60 (used, like new)",
+   "store": "eBay",
+   "price": "$298.74",
+   "url": "https://www.ebay.com/itm/127703206732",
+   "note": "Premium brand; 60A caps at ~860W",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Solar backup",
+   "title": "Renogy Rover 40A 100V (spare panels controller)",
+   "store": "Amazon",
+   "price": "$168.99",
+   "url": "https://www.amazon.com/dp/B01MSYGZGI",
+   "note": "For the ALRSKA/BossWatt spares, optional",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Radios",
+   "title": "TIDRADIO TD-H3 GMRS 2-pack (top pick)",
+   "store": "Amazon",
+   "price": "$54.99",
+   "url": "https://www.amazon.com/dp/B0CQ4P91DF",
+   "note": "USB-C, NOAA, long antennas; needs $35 family GMRS license (no test); arrives ~Nov 29\u2013Dec 5",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Radios",
+   "title": "Midland GXT1030VP4 GMRS 2-pack",
+   "store": "Amazon",
+   "price": "$99.99",
+   "url": "https://www.amazon.com/dp/B013QIFCLE",
+   "note": "Simplest, 4.4\u2605 (10,757), arrives Nov 24\u201328",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Radios",
+   "title": "Radioddity GM-30 GMRS 2-pack with cable",
+   "store": "Radioddity",
+   "price": "$59.99",
+   "url": "https://www.radioddity.com/products/radioddity-gm-30-2-pack",
+   "note": "CHIRP programmable; shipping not confirmed",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Radios",
+   "title": "Quansheng UV-K5/K6 ham 2-pack",
+   "store": "Amazon",
+   "price": "$54.34",
+   "url": "https://www.amazon.com/dp/B0CZ97PH4P",
+   "note": "Ham radio; each person needs a Technician license to transmit",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Solar backup",
+   "title": "Solar backup plan (panels to boat), Nov 2",
+   "store": "Google Docs",
+   "price": "",
+   "url": "https://docs.google.com/document/d/1evhlPlea3wgPv0GFaWFyISC08ss_s_t4bPC1TpFVmKk/edit?usp=drivesdk",
+   "note": "Earlier saved plan",
+   "added": "2026-11-02"
+  },
+  {
+   "category": "Cameras",
+   "title": "Reolink Home Hub Mini (cheapest, recommended)",
+   "store": "Walmart",
+   "price": "$69.94",
+   "url": "https://www.walmart.com/ip/20087201301",
+   "note": "8 cameras, up to 1TB microSD (not included); sold by ReolinkUSOnline, fulfilled by Walmart, free shipping. Official HA Reolink integration bridge for battery/solar cams.",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Cameras",
+   "title": "Reolink Home Hub Mini",
+   "store": "Newegg",
+   "price": "$79.99",
+   "url": "https://www.newegg.com/p/35A-008Y-00001",
+   "note": "Same Mini, sold/shipped by ReolinkUS. microSD not included.",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Cameras",
+   "title": "Reolink Home Hub (8-cam, 2 microSD slots)",
+   "store": "Amazon",
+   "price": "$134.99",
+   "url": "https://www.amazon.com/dp/B0DP9MYNQ5",
+   "note": "In stock; 2x512GB SD slots (card not included). HA-tested. Alternative to Mini if you want more local storage.",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Cameras",
+   "title": "Reolink Home Hub Pro (no HDD)",
+   "store": "Amazon",
+   "price": "$219.99",
+   "url": "https://www.amazon.com/dp/B0GK18FCC3",
+   "note": "In stock; up to 12 cameras, 16TB HDD bay and HDMI (drive not included). Overkill unless you want 24/7 HDD recording.",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Solar",
+   "title": "VUICCI 100A MPPT charge controller, 145V PV (used)",
+   "store": "Amazon",
+   "price": "$90.99 used",
+   "url": "https://www.amazon.com/dp/B0H7XX3F5Z?th=1",
+   "note": "Works with 2S2P CS3U-370P (cold Voc ~104V); check used return window",
+   "added": "2026-11-17"
+  }
+ ]
 }
