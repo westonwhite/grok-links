@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Weston's Links from Grok</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0f172a;color:#e2e8f0}
+header{padding:20px 16px;background:#1e293b;position:sticky;top:0}
+h1{margin:0;font-size:22px}small{color:#94a3b8}
+main{max-width:900px;margin:0 auto;padding:16px}
+input{width:100%;padding:10px;border-radius:8px;border:1px solid #334155;background:#0b1220;color:#e2e8f0;font-size:16px;box-sizing:border-box}
+.cat{margin-top:22px;font-size:15px;color:#38bdf8;text-transform:uppercase;letter-spacing:.05em}
+.card{display:block;background:#1e293b;border-radius:10px;padding:12px 14px;margin:8px 0;text-decoration:none;color:inherit;border:1px solid #334155}
+.card:hover{border-color:#38bdf8}
+.t{font-weight:600;font-size:16px}.p{color:#4ade80;font-weight:600;float:right}
+.n{color:#94a3b8;font-size:14px;margin-top:4px}.d{color:#64748b;font-size:12px;margin-top:4px}
+</style></head><body>
+<header><h1>Links from Grok</h1><small id="upd">Loading…</small></header>
+<main><input id="q" placeholder="Search links…">
+<div id="list"></div></main>
+<script>
+let data=[];
+function esc(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function render(){const q=document.getElementById('q').value.toLowerCase();const el=document.getElementById('list');el.innerHTML='';
+const items=data.filter(i=>!q||JSON.stringify(i).toLowerCase().includes(q));const cats={};
+items.forEach(i=>{(cats[i.category||'Other']=cats[i.category||'Other']||[]).push(i)});
+for(const c in cats){el.insertAdjacentHTML('beforeend',`<div class="cat">${esc(c)}</div>`);
+cats[c].forEach(i=>el.insertAdjacentHTML('beforeend',`<a class="card" href="${esc(i.url)}" target="_blank" rel="noopener"><span class="p">${esc(i.price)}</span><div class="t">${esc(i.title)}</div><div class="n">${esc(i.store)}${i.note?' · '+esc(i.note):''}</div><div class="d">Added ${esc(i.added)}</div></a>`))}
+if(!items.length)el.innerHTML='<p>No links yet.</p>'}
+fetch('links.json?'+Date.now()).then(r=>r.json()).then(j=>{data=(j.links||[]).sort((a,b)=>(b.added||'').localeCompare(a.added||''));document.getElementById('upd').textContent='Updated '+(j.updated||'');render()});
+document.getElementById('q').oninput=render;
+</script></body></html>
