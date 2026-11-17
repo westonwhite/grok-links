@@ -42,7 +42,7 @@ const items=data.filter(i=>(!filter||i.verdict===filter)&&(!q||JSON.stringify(i)
 items.forEach(i=>{(cats[i.category||'Other']=cats[i.category||'Other']||[]).push(i)});
 for(const c in cats){el.insertAdjacentHTML('beforeend',`<div class="cat">${esc(c)}</div>`);
 cats[c].forEach(i=>{const v=i.verdict||'';const badge=v?`<span class="badge ${cls[v]||'option'}">${esc(labels[v]||v)}</span>`:'';
-el.insertAdjacentHTML('beforeend',`<a class="card" href="${esc(i.url)}" target="_blank" rel="noopener"><div class="top">${badge}<span class="p">${esc(i.price)}</span></div><div class="t">${esc(i.title)}</div><div class="n">${esc(i.store)}${i.note?' · '+esc(i.note):''}</div><div class="d">Added ${esc(i.added)}</div></a>`)})}
+el.insertAdjacentHTML('beforeend',`<a class="card" href="${esc(i.url)}" target="_blank" rel="noopener"><div class="top">${badge}<span class="p">${esc(i.price)}</span></div><div class="t">${esc(i.title)}</div><div class="n">${esc(i.store)}${i.note?' · '+esc(i.note):''}</div><div class="d">Added ${esc(i.added)}${i.used_price?` · Used: ${esc(i.used_price)}`:''}</div></a>`)})}
 if(!items.length)el.innerHTML='<p>No links yet.</p>'}
 fetch('links.json?'+Date.now()).then(r=>r.json()).then(j=>{data=(j.links||[]).sort((a,b)=>(b.added||'').localeCompare(a.added||''));document.getElementById('upd').textContent='Updated '+(j.updated||'');render()});
 document.getElementById('q').oninput=render;

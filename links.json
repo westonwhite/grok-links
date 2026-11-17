@@ -8,7 +8,7 @@
    "price": "$139.99",
    "url": "https://www.amazon.com/dp/B0CDC9M1HJ",
    "verdict": "recommended",
-   "note": "Top pick. Uses nearly the full array (1,500W at 12V). 4.2\u2605, Prime by Nov 22; used from $120.99",
+   "note": "Top pick. Uses nearly the full array (1,500W at 12V). 4.2★, Prime by Nov 22; used from $120.99",
    "added": "2026-11-17"
   },
   {
@@ -28,7 +28,7 @@
    "price": "$141.54",
    "url": "https://www.amazon.com/dp/B0D7CFXYKX",
    "verdict": "option",
-   "note": "OK alternative. 4.9\u2605, 160V PV.",
+   "note": "OK alternative. 4.9★, 160V PV.",
    "added": "2026-11-17"
   },
   {
@@ -68,7 +68,7 @@
    "price": "$99.99",
    "url": "https://www.amazon.com/dp/B013QIFCLE",
    "verdict": "option",
-   "note": "Simplest GMRS option. 4.4\u2605.",
+   "note": "Simplest GMRS option. 4.4★.",
    "added": "2026-11-17"
   },
   {
@@ -169,7 +169,7 @@
    "price": "$129.08",
    "url": "https://www.ebay.com/itm/800269378978",
    "verdict": "option",
-   "note": "Real 100A/150V MPPT from ANENJI official (100% positive, 1.2K sold). Free 2\u20134 day US shipping from NJ. Not an identical VUICCI housing clone, and not cheaper than the used VUICCI at $90.99.",
+   "note": "Real 100A/150V MPPT from ANENJI official (100% positive, 1.2K sold). Free 2–4 day US shipping from NJ. Not an identical VUICCI housing clone, and not cheaper than the used VUICCI at $90.99.",
    "added": "2026-11-17"
   },
   {
@@ -191,6 +191,50 @@
    "verdict": "option",
    "note": "Genuine unit from Reolink Official US (99.6% positive, 3.3K sold). Free shipping from Houston, TX. Still $15 more than Walmart at $69.94.",
    "added": "2026-11-17"
+  },
+  {
+   "category": "Household",
+   "title": "MaxTite 99.9% IPA, 4×32 oz (1 gallon, best value)",
+   "store": "Amazon",
+   "price": "$28.95",
+   "url": "https://www.amazon.com/dp/B0DBJ7CNJ1",
+   "note": "Best value 99.9%. S&S $27.50 ($0.21/oz). In stock, Prime by Thu Nov 19. Hazmat: non-returnable, no extra ship fee with Prime.",
+   "verdict": "recommended",
+   "added": "2026-11-17",
+   "used_price": "n/a"
+  },
+  {
+   "category": "Household",
+   "title": "MaxTite 99.9% IPA, 16 oz (small bottle)",
+   "store": "Amazon",
+   "price": "$8.95",
+   "url": "https://www.amazon.com/dp/B08CGJV5FR",
+   "note": "Best small bottle. S&S $8.50 ($0.53/oz); 10% S&S is $8.05. Prime by Thu Nov 19. Hazmat, non-returnable.",
+   "verdict": "recommended",
+   "added": "2026-11-17",
+   "used_price": "n/a"
+  },
+  {
+   "category": "Household",
+   "title": "Nanoskin 99.9% IPA, 32 oz",
+   "store": "Amazon",
+   "price": "$10.76",
+   "url": "https://www.amazon.com/dp/B0F94K42X8",
+   "note": "Best single 32 oz of 99.9%, sold by Amazon. S&S $10.22 ($0.32/oz). Prime by Thu Nov 19. Hazmat, non-returnable.",
+   "verdict": "option",
+   "added": "2026-11-17",
+   "used_price": "n/a"
+  },
+  {
+   "category": "Household",
+   "title": "ForPro 99% IPA, 32 oz",
+   "store": "Amazon",
+   "price": "$9.99",
+   "url": "https://www.amazon.com/dp/B00DT52Y98",
+   "note": "99% not 99.9%. Same $9.99 at Walmart. No S&S shown. Fine if 99% is enough; skip if you want closest to 100%.",
+   "verdict": "option",
+   "added": "2026-11-17",
+   "used_price": "n/a"
   }
  ]
 }
