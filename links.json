@@ -8,7 +8,7 @@
    "price": "$139.99",
    "url": "https://www.amazon.com/dp/B0CDC9M1HJ",
    "verdict": "recommended",
-   "note": "Top pick. Uses nearly the full array (1,500W at 12V). 4.2\u2605, Prime by Nov 22; used from $120.99",
+   "note": "Top pick. Uses nearly the full array (1,500W at 12V). 4.2★, Prime by Nov 22; used from $120.99",
    "added": "2026-11-17"
   },
   {
@@ -28,7 +28,7 @@
    "price": "$141.54",
    "url": "https://www.amazon.com/dp/B0D7CFXYKX",
    "verdict": "option",
-   "note": "OK alternative. 4.9\u2605, 160V PV.",
+   "note": "OK alternative. 4.9★, 160V PV.",
    "added": "2026-11-17"
   },
   {
@@ -68,7 +68,7 @@
    "price": "$99.99",
    "url": "https://www.amazon.com/dp/B013QIFCLE",
    "verdict": "option",
-   "note": "Simplest GMRS option. 4.4\u2605.",
+   "note": "Simplest GMRS option. 4.4★.",
    "added": "2026-11-17"
   },
   {
@@ -170,6 +170,36 @@
    "verdict": "yours",
    "from": "Weston",
    "note": "You sent this. Works: 145V max vs ~104V cold Voc, ~1,400W at 12V; only buy with 30-day return, lesser-known brand",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Solar backup",
+   "title": "ANENJI 100A MPPT 150V (official eBay)",
+   "store": "eBay",
+   "price": "$129.08",
+   "url": "https://www.ebay.com/itm/800269378978",
+   "verdict": "option",
+   "note": "Real 100A/150V MPPT from ANENJI official (100% positive, 1.2K sold). Free 2–4 day US shipping from NJ. Not an identical VUICCI housing clone, and not cheaper than the used VUICCI at $90.99.",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Solar backup",
+   "title": "MakeSkyBlue 60A V124 MPPT (eBay)",
+   "store": "eBay",
+   "price": "$95.71",
+   "url": "https://www.ebay.com/itm/178507651900",
+   "verdict": "not recommended",
+   "note": "Same V124 60A, free shipping via Google Shopping, but $30 more than Amazon ($66).",
+   "added": "2026-11-17"
+  },
+  {
+   "category": "Cameras",
+   "title": "Reolink Home Hub Mini (official eBay US)",
+   "store": "eBay",
+   "price": "$84.99",
+   "url": "https://www.ebay.com/itm/407350126984",
+   "verdict": "option",
+   "note": "Genuine unit from Reolink Official US (99.6% positive, 3.3K sold). Free shipping from Houston, TX. Still $15 more than Walmart at $69.94.",
    "added": "2026-11-17"
   }
  ]
