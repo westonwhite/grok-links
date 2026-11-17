@@ -198,7 +198,7 @@
    "price": "$69.94",
    "url": "https://www.walmart.com/ip/20087201301",
    "verdict": "recommended",
-   "note": "Cheapest hub that works with your solar cams and Home Assistant. microSD not included.",
+   "note": "Still in stock at $69.94 (was $79.99). Sold by ReolinkUSOnline and fulfilled by Walmart, free shipping, holiday returns until Jan 31. microSD not included. Live-checked Nov 17. Best confirmed cashback: Rakuten $5 promo if eligible (net $64.94) through Nov 25; otherwise TopCashback or Capital One Shopping 2% on electronics (net $68.54).",
    "added": "2026-11-17",
    "used_checked": "2026-11-17",
    "used_price": "none found"
@@ -311,7 +311,43 @@
    "price": "$84.99",
    "url": "https://www.ebay.com/itm/407350126984",
    "verdict": "option",
-   "note": "Genuine unit from Reolink Official US (99.6% positive, 3.3K sold). Free shipping from Houston, TX. Still $15 more than Walmart at $69.94.",
+   "note": "New unit from Reolink Official US (99.6% positive). Free shipping from Houston, TX. 2-year warranty, 30-day returns. Still $15 more than Walmart at $69.94. Live-checked Nov 17.",
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
+  },
+  {
+   "category": "Reolink",
+   "title": "Cheapest Home Hub Mini (Walmart, no SD card)",
+   "store": "Walmart",
+   "price": "$69.94",
+   "url": "https://www.walmart.com/ip/20087201301",
+   "verdict": "recommended",
+   "note": "Live Nov 17: $69.94 (was $79.99), in stock. Sold by ReolinkUSOnline, fulfilled by Walmart, free shipping, holiday returns until Jan 31. microSD not included. Supports up to 8 cameras and one 1TB microSD. Cheaper than official Reolink ($89.99) and official eBay ($84.99). No standalone Amazon US listing or used/Resale Mini found. Best confirmed cashback: Rakuten $5 promo if eligible through Nov 25 (net $64.94); otherwise TopCashback or Capital One Shopping 2% electronics (net $68.54). Price.com advertises up to 12% with a $20 cap, but the electronics rate was not confirmed.",
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
+  },
+  {
+   "category": "Reolink",
+   "title": "Home Hub Mini (Reolink official, no SD card)",
+   "store": "Reolink",
+   "price": "$89.99",
+   "url": "https://reolink.com/us/product/home-hub-mini/?attribute_pa_version=pack-1-pack",
+   "verdict": "option",
+   "note": "Official US store, in stock at $89.99, free shipping on all orders, 30-day money back, 2-year limited warranty. $20 more than Walmart. TopCashback is 3% today (net about $87.29). Same Mini as the Walmart listing.",
+   "added": "2026-11-17",
+   "used_checked": "2026-11-17",
+   "used_price": "none found"
+  },
+  {
+   "category": "Reolink",
+   "title": "Home Hub Mini (Reolink official eBay US)",
+   "store": "eBay",
+   "price": "$84.99",
+   "url": "https://www.ebay.com/itm/407350126984",
+   "verdict": "option",
+   "note": "New, more than 10 available, from Reolink Official US (99.6% positive). $84.99 (was $99.99), free shipping from Houston, 2-year warranty, 30-day returns. Still $15 more than Walmart. Live-checked Nov 17.",
    "added": "2026-11-17",
    "used_checked": "2026-11-17",
    "used_price": "none found"
