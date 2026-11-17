@@ -43,7 +43,7 @@ let data=[],filter='';
 const labels={recommended:'Recommended','not recommended':'Not recommended',option:'Option',yours:'You sent',info:'Info'};
 const cls={recommended:'recommended','not recommended':'not-recommended',option:'option',yours:'yours',info:'info'};
 function esc(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-function hasUsed(i){return i.used_price&&i.used_price!=='none found'}
+function hasUsed(i){return i.used_price&&i.used_price!=='none found'&&String(i.used_price).toLowerCase()!=='n/a'}
 function usedLine(i){
   if(hasUsed(i)&&i.used_url){
     return `<div class="used"><a href="${esc(i.used_url)}" target="_blank" rel="noopener">Cheapest used/open-box: ${esc(i.used_price)} at ${esc(i.used_source||'used listing')}</a></div>`;
