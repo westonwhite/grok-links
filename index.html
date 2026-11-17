@@ -3,28 +3,48 @@
 <title>Weston's Links from Grok</title>
 <style>
 body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0f172a;color:#e2e8f0}
-header{padding:20px 16px;background:#1e293b;position:sticky;top:0}
+header{padding:20px 16px 12px;background:#1e293b;position:sticky;top:0;z-index:2}
 h1{margin:0;font-size:22px}small{color:#94a3b8}
 main{max-width:900px;margin:0 auto;padding:16px}
 input{width:100%;padding:10px;border-radius:8px;border:1px solid #334155;background:#0b1220;color:#e2e8f0;font-size:16px;box-sizing:border-box}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.filters button{appearance:none;border:1px solid #334155;background:#0b1220;color:#cbd5e1;border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer;min-height:40px}
+.filters button.on{background:#1e3a8a;border-color:#3b82f6;color:#dbeafe}
 .cat{margin-top:22px;font-size:15px;color:#38bdf8;text-transform:uppercase;letter-spacing:.05em}
 .card{display:block;background:#1e293b;border-radius:10px;padding:12px 14px;margin:8px 0;text-decoration:none;color:inherit;border:1px solid #334155}
 .card:hover{border-color:#38bdf8}
-.t{font-weight:600;font-size:16px}.p{color:#4ade80;font-weight:600;float:right}
+.top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}
+.t{font-weight:600;font-size:16px}.p{color:#4ade80;font-weight:600;white-space:nowrap}
 .n{color:#94a3b8;font-size:14px;margin-top:4px}.d{color:#64748b;font-size:12px;margin-top:4px}
+.badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;letter-spacing:.02em;white-space:nowrap}
+.badge.recommended{background:#14532d;color:#86efac}
+.badge.not-recommended{background:#7f1d1d;color:#fca5a5}
+.badge.option{background:#3f3f46;color:#d4d4d8}
+.badge.yours{background:#1e3a8a;color:#93c5fd}
+.badge.info{background:#334155;color:#94a3b8}
 </style></head><body>
 <header><h1>Links from Grok</h1><small id="upd">Loading…</small></header>
 <main><input id="q" placeholder="Search links…">
+<div class="filters" id="filters">
+<button type="button" data-v="" class="on">All</button>
+<button type="button" data-v="recommended">Recommended</button>
+<button type="button" data-v="not recommended">Not recommended</button>
+<button type="button" data-v="yours">You sent</button>
+</div>
 <div id="list"></div></main>
 <script>
-let data=[];
+let data=[],filter='';
+const labels={recommended:'Recommended','not recommended':'Not recommended',option:'Option',yours:'You sent',info:'Info'};
+const cls={recommended:'recommended','not recommended':'not-recommended',option:'option',yours:'yours',info:'info'};
 function esc(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function render(){const q=document.getElementById('q').value.toLowerCase();const el=document.getElementById('list');el.innerHTML='';
-const items=data.filter(i=>!q||JSON.stringify(i).toLowerCase().includes(q));const cats={};
+const items=data.filter(i=>(!filter||i.verdict===filter)&&(!q||JSON.stringify(i).toLowerCase().includes(q)));const cats={};
 items.forEach(i=>{(cats[i.category||'Other']=cats[i.category||'Other']||[]).push(i)});
 for(const c in cats){el.insertAdjacentHTML('beforeend',`<div class="cat">${esc(c)}</div>`);
-cats[c].forEach(i=>el.insertAdjacentHTML('beforeend',`<a class="card" href="${esc(i.url)}" target="_blank" rel="noopener"><span class="p">${esc(i.price)}</span><div class="t">${esc(i.title)}</div><div class="n">${esc(i.store)}${i.note?' · '+esc(i.note):''}</div><div class="d">Added ${esc(i.added)}</div></a>`))}
+cats[c].forEach(i=>{const v=i.verdict||'';const badge=v?`<span class="badge ${cls[v]||'option'}">${esc(labels[v]||v)}</span>`:'';
+el.insertAdjacentHTML('beforeend',`<a class="card" href="${esc(i.url)}" target="_blank" rel="noopener"><div class="top">${badge}<span class="p">${esc(i.price)}</span></div><div class="t">${esc(i.title)}</div><div class="n">${esc(i.store)}${i.note?' · '+esc(i.note):''}</div><div class="d">Added ${esc(i.added)}</div></a>`)})}
 if(!items.length)el.innerHTML='<p>No links yet.</p>'}
 fetch('links.json?'+Date.now()).then(r=>r.json()).then(j=>{data=(j.links||[]).sort((a,b)=>(b.added||'').localeCompare(a.added||''));document.getElementById('upd').textContent='Updated '+(j.updated||'');render()});
 document.getElementById('q').oninput=render;
+document.getElementById('filters').onclick=e=>{const b=e.target.closest('button');if(!b)return;filter=b.dataset.v||'';[...document.getElementById('filters').children].forEach(x=>x.classList.toggle('on',x===b));render()};
 </script></body></html>

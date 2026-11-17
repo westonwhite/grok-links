@@ -7,7 +7,8 @@
    "store": "Amazon",
    "price": "$139.99",
    "url": "https://www.amazon.com/dp/B0CDC9M1HJ",
-   "note": "Covers all 4 panels (1,500W at 12V), 4.2★ (159), Prime by Nov 22; used from $120.99",
+   "verdict": "recommended",
+   "note": "Top pick. Uses nearly the full array (1,500W at 12V). 4.2★, Prime by Nov 22; used from $120.99",
    "added": "2026-11-17"
   },
   {
@@ -16,7 +17,8 @@
    "store": "Amazon",
    "price": "$110.00",
    "url": "https://www.amazon.com/dp/B0G5P3XJ3S",
-   "note": "Caps at 1,200W, only 2 reviews, 7 left",
+   "verdict": "option",
+   "note": "OK alternative. Caps at 1,200W; only 2 reviews.",
    "added": "2026-11-17"
   },
   {
@@ -25,7 +27,8 @@
    "store": "Amazon",
    "price": "$141.54",
    "url": "https://www.amazon.com/dp/B0D7CFXYKX",
-   "note": "4.9★ (13), 160V PV",
+   "verdict": "option",
+   "note": "OK alternative. 4.9★, 160V PV.",
    "added": "2026-11-17"
   },
   {
@@ -34,7 +37,8 @@
    "store": "eBay",
    "price": "$298.74",
    "url": "https://www.ebay.com/itm/127703206732",
-   "note": "Premium brand; 60A caps at ~860W",
+   "verdict": "option",
+   "note": "Premium used option. 60A caps at ~860W.",
    "added": "2026-11-17"
   },
   {
@@ -43,7 +47,8 @@
    "store": "Amazon",
    "price": "$168.99",
    "url": "https://www.amazon.com/dp/B01MSYGZGI",
-   "note": "For the ALRSKA/BossWatt spares, optional",
+   "verdict": "recommended",
+   "note": "Recommended for spare panels only, not the 370s.",
    "added": "2026-11-17"
   },
   {
@@ -52,7 +57,8 @@
    "store": "Amazon",
    "price": "$54.99",
    "url": "https://www.amazon.com/dp/B0CQ4P91DF",
-   "note": "USB-C, NOAA, long antennas; needs $35 family GMRS license (no test); arrives ~Nov 29–Dec 5",
+   "verdict": "recommended",
+   "note": "Top GMRS pick. USB-C, NOAA; needs a $35 family license (no test).",
    "added": "2026-11-17"
   },
   {
@@ -61,7 +67,8 @@
    "store": "Amazon",
    "price": "$99.99",
    "url": "https://www.amazon.com/dp/B013QIFCLE",
-   "note": "Simplest, 4.4★ (10,757), arrives Nov 24–28",
+   "verdict": "option",
+   "note": "Simplest GMRS option. 4.4★.",
    "added": "2026-11-17"
   },
   {
@@ -70,7 +77,8 @@
    "store": "Radioddity",
    "price": "$59.99",
    "url": "https://www.radioddity.com/products/radioddity-gm-30-2-pack",
-   "note": "CHIRP programmable; shipping not confirmed",
+   "verdict": "option",
+   "note": "OK GMRS alternative. CHIRP programmable.",
    "added": "2026-11-17"
   },
   {
@@ -79,7 +87,8 @@
    "store": "Amazon",
    "price": "$54.34",
    "url": "https://www.amazon.com/dp/B0CZ97PH4P",
-   "note": "Ham radio; each person needs a Technician license to transmit",
+   "verdict": "option",
+   "note": "Needs a Technician ham license to transmit.",
    "added": "2026-11-17"
   },
   {
@@ -88,7 +97,8 @@
    "store": "Google Docs",
    "price": "",
    "url": "https://docs.google.com/document/d/1evhlPlea3wgPv0GFaWFyISC08ss_s_t4bPC1TpFVmKk/edit?usp=drivesdk",
-   "note": "Earlier saved plan",
+   "verdict": "info",
+   "note": "Earlier saved plan (Nov 2).",
    "added": "2026-11-02"
   },
   {
@@ -97,7 +107,8 @@
    "store": "Walmart",
    "price": "$69.94",
    "url": "https://www.walmart.com/ip/20087201301",
-   "note": "8 cameras, up to 1TB microSD (not included); sold by ReolinkUSOnline, fulfilled by Walmart, free shipping. Official HA Reolink integration bridge for battery/solar cams.",
+   "verdict": "recommended",
+   "note": "Cheapest hub that works with your solar cams and Home Assistant. microSD not included.",
    "added": "2026-11-17"
   },
   {
@@ -106,7 +117,8 @@
    "store": "Newegg",
    "price": "$79.99",
    "url": "https://www.newegg.com/p/35A-008Y-00001",
-   "note": "Same Mini, sold/shipped by ReolinkUS. microSD not included.",
+   "verdict": "option",
+   "note": "Same Mini as Walmart, slightly more expensive. microSD not included.",
    "added": "2026-11-17"
   },
   {
@@ -115,7 +127,8 @@
    "store": "Amazon",
    "price": "$134.99",
    "url": "https://www.amazon.com/dp/B0DP9MYNQ5",
-   "note": "In stock; 2x512GB SD slots (card not included). HA-tested. Alternative to Mini if you want more local storage.",
+   "verdict": "option",
+   "note": "More local storage if you need it. HA-tested.",
    "added": "2026-11-17"
   },
   {
@@ -124,7 +137,8 @@
    "store": "Amazon",
    "price": "$219.99",
    "url": "https://www.amazon.com/dp/B0GK18FCC3",
-   "note": "In stock; up to 12 cameras, 16TB HDD bay and HDMI (drive not included). Overkill unless you want 24/7 HDD recording.",
+   "verdict": "not recommended",
+   "note": "Overkill unless you want 24/7 HDD recording.",
    "added": "2026-11-17"
   },
   {
@@ -133,7 +147,8 @@
    "store": "Amazon",
    "price": "$66.00",
    "url": "https://www.amazon.com/dp/B0FN7TYXMQ",
-   "note": "Official MakeSkyBlue; 150V PV on 12V (cold Voc ~104V OK). Clips to 720W at 12V. Sold by MakeSkyBlue, free delivery ~Nov 24; 4.0★ (21), frequently returned. Real MPPT (DIY Solar / Will Prowse / teardowns of this product line).",
+   "verdict": "option",
+   "note": "OK alternative. Real MPPT, but caps at ~720W.",
    "added": "2026-11-17"
   },
   {
@@ -142,7 +157,8 @@
    "store": "Amazon",
    "price": "$85.00",
    "url": "https://www.amazon.com/dp/B0FN7YWMX6",
-   "note": "Same V124 family, 150V PV on 12V. Clips to 960W at 12V (less waste than 60A). 8 left, Prime as soon as Nov 19. 2.9★ (10). Real MPPT, official line.",
+   "verdict": "not recommended",
+   "note": "2.9★ and caps at 960W. Real MPPT, but skip this one.",
    "added": "2026-11-17"
   },
   {
@@ -151,7 +167,9 @@
    "store": "Amazon",
    "price": "$90.99 used",
    "url": "https://www.amazon.com/dp/B0H7XX3F5Z?th=1",
-   "note": "Works with 2S2P CS3U-370P (cold Voc ~104V); check used return window",
+   "verdict": "yours",
+   "from": "Weston",
+   "note": "You sent this. Works: 145V max vs ~104V cold Voc, ~1,400W at 12V; only buy with 30-day return, lesser-known brand",
    "added": "2026-11-17"
   }
  ]
