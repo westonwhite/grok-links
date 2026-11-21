@@ -27,9 +27,24 @@ input{width:100%;padding:10px;border-radius:8px;border:1px solid #334155;backgro
 .used a{color:#fbbf24;font-weight:600;text-decoration:none;display:inline-block;min-height:32px;line-height:1.4}
 .used a:hover{text-decoration:underline;color:#fde68a}
 .used .none{color:#64748b}
+.email-grok{margin:16px 0 8px;padding:12px 14px;background:#1e293b;border:1px solid #334155;border-radius:10px}
+.email-grok h2{margin:0 0 8px;font-size:13px;color:#38bdf8;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+.email-grok ul{margin:0;padding:0;list-style:none}
+.email-grok li{margin:6px 0;font-size:14px;color:#94a3b8;line-height:1.4}
+.email-grok a{color:#7dd3fc;font-weight:600;text-decoration:none;word-break:break-all}
+.email-grok a:hover{text-decoration:underline;color:#e0f2fe}
 </style></head><body>
 <header><h1>Links from Grok</h1><small id="upd">Loading…</small><br><a id="msg" href="mailto:westonhelper+links@mail.grokbot.com?subject=Message%20for%20Grok" style="display:inline-block;margin:8px 0;padding:8px 14px;border-radius:8px;background:#1d9bf0;color:#fff;text-decoration:none;font-weight:600">&#9993; Message Grok</a></header>
-<main><input id="q" placeholder="Search links…">
+<main>
+<section class="email-grok" aria-label="Email Grok Bot">
+<h2>Email Grok Bot</h2>
+<ul>
+<li><a href="mailto:westonhelper@mail.grokbot.com">westonhelper@mail.grokbot.com</a> — Forward anything to Grok Bot</li>
+<li><a href="mailto:westonhelper+dash@mail.grokbot.com">westonhelper+dash@mail.grokbot.com</a> — Dash requests from Anna and the hubs</li>
+<li><a href="mailto:westonhelper+links@mail.grokbot.com">westonhelper+links@mail.grokbot.com</a> — Messages from the links site</li>
+</ul>
+</section>
+<input id="q" placeholder="Search links…">
 <div class="filters" id="filters">
 <button type="button" data-v="" class="on">All</button>
 <button type="button" data-v="recommended">Recommended</button>
